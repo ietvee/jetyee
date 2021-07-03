@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="font">
       <div className="flex flex-col min-h-screen">
-        <Router basename="/jetyee">
+        <Router basename={process.env.PUBLIC_URL}>
           <div className=" flex-1 flex-col content-center justify-center">
             {/* <Nav /> */}
             <Switch>

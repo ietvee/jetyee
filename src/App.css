@@ -66,13 +66,13 @@
   }
 }
 
-@media (min-width: 287px) {
+@media (min-width: 319px) {
   @keyframes animated-text {
     from {
       width: 0;
     }
     to {
-      width: 260px;
+      width: 180px;
     }
   }
 }

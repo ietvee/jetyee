@@ -17,7 +17,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://github.com/"
+          href="https://github.com/ietvee"
           className="m-1"
           target="_blank"
           rel="noreferrer"
@@ -26,7 +26,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://github.com/"
+          href="https://docs.google.com/document/d/1krnk0gErlSdIrBtqPpGoUbLFcddRuIJN4c-SSxs8JUE/edit?usp=sharing"
           className="m-1"
           target="_blank"
           rel="noreferrer"

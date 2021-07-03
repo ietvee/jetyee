@@ -11,7 +11,7 @@ export default function Home() {
           <div className="">
             <Nav />
             <div className="typewriter">
-              <p className="lg:text-3xl md:text-base sm:text-base">
+              <p className="lg:text-3xl md:text-base sm:text-sm">
                 Hello, I'm Jet Yee.
               </p>
             </div>

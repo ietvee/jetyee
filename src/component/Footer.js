@@ -25,7 +25,12 @@ function Footer() {
           <img src={github} alt="resume_jetyee" />
         </a>
 
-        <a href="#" className="m-1" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/"
+          className="m-1"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={resume} alt="resume" />
         </a>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Redirect,
@@ -17,7 +18,8 @@ function App() {
   return (
     <div className="font">
       <div className="flex flex-col min-h-screen">
-        <Router basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={process.env.PUBLIC_URL}>
+          {/* <Router basename={process.env.PUBLIC_URL}> */}
           <div className=" flex-1 flex-col content-center justify-center">
             {/* <Nav /> */}
             <Switch>
@@ -29,7 +31,8 @@ function App() {
               <Redirect to="/404" />
             </Switch>
           </div>
-        </Router>
+          {/* </Router> */}
+        </HashRouter>
       </div>
     </div>
   );

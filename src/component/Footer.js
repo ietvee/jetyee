@@ -37,7 +37,7 @@ function Footer() {
 
       <div>
         <div className=" rounded-md text-sm flex content-center justify-center object-center mx-auto text-gray-300 ">
-          © jetyee 2021
+          © Jet Yee 2021
         </div>
       </div>
     </div>

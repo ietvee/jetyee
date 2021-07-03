@@ -21,7 +21,8 @@ function App() {
           <div className=" flex-1 flex-col content-center justify-center">
             {/* <Nav /> */}
             <Switch>
-              <Route path="/" exact component={Home} />
+              <Route path="/" component={Home} />
+              <Route path="/jetyee" component={Home} />
               {/* <Route path="/about" component={About} />
             <Route path="/project" component={Project} /> */}
               <Route path="/404" component={ErrorMessage} />

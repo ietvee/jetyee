@@ -25,7 +25,7 @@ function App() {
               <Route path="/jetyee" component={Home} />
               {/* <Route path="/about" component={About} />
             <Route path="/project" component={Project} /> */}
-              <Route path="/404" component={ErrorMessage} />
+              <Route exact path="/404" component={ErrorMessage} />
               <Redirect to="/404" />
             </Switch>
           </div>

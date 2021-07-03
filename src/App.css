@@ -66,6 +66,17 @@
   }
 }
 
+@media (min-width: 287px) {
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 260px;
+    }
+  }
+}
+
 @media (min-width: 320px) {
   @keyframes animated-text {
     from {

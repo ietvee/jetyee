@@ -21,9 +21,9 @@ export default function Home() {
       <div className=" grid grid-cols-1 divide-y divide-gray-300 mx-12">
         <p></p>
         <div>
-          <p className="py-24 flex justify-center w-80 mx-auto text-center">
-            This is a representation of my works through my self-learning
-            journey. I am always eager to learn and challenge myself.
+          <p className="py-24 flex justify-center lg:w-80 md:w-56 sm:w-10 mx-auto text-center">
+            This is a representation through my self-learning journey. I am
+            always eager to learn and challenge myself.
           </p>
         </div>
         <p></p>

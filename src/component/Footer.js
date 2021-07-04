@@ -26,7 +26,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://docs.google.com/document/d/1krnk0gErlSdIrBtqPpGoUbLFcddRuIJN4c-SSxs8JUE/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1krnk0gErlSdIrBtqPpGoUbLFcddRuIJN4c-SSxs8JUE/view"
           className="m-1"
           target="_blank"
           rel="noreferrer"

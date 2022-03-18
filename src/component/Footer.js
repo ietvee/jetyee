@@ -4,6 +4,9 @@ import github from "./../asset/github.png";
 import resume from "./../asset/resume.png";
 
 function Footer() {
+  const current = new Date();
+  const date = current.getFullYear();
+
   return (
     <div className="h-12 my-8">
       <div className="flex content-center justify-center object-center mx-auto my-1">
@@ -36,8 +39,8 @@ function Footer() {
       </div>
 
       <div>
-        <div className=" rounded-md text-sm flex content-center justify-center object-center mx-auto text-gray-300 ">
-          © Jet Yee 2021
+        <div className="rounded-md text-sm flex content-center justify-center object-center mx-auto text-gray-300">
+          © Jet Yee {date}
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const project = [
     projectName: "",
     projectDesc:
       "React web app -'Twitter' clone crud & login/register with firebase realtime database",
-    projectLink: "",
+    projectLink: "https://ietvee.github.io/react-twitter/",
   },
   {
     project: "",
